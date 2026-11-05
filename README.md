@@ -8,8 +8,8 @@ A player for Fire TV and Android TV, for live TV, movies and series from your ow
 2. Go to **Settings → My Fire TV → Developer Options → Install Unknown Apps** and turn it on for Downloader. If you don't see Developer Options, go to **Settings → My Fire TV → About**, press OK seven times on your device's name, then go back.
 3. Open Downloader and enter this code in the URL address bar : **3221626**
 3.1 or https://github.com/codeurvibe/katika-tv-releases/releases/latest/download/katika.apk
-4. Choose **Install** when the download finishes, then open KATIKA TV.
-5. Enter your login and tick the countries you want for live TV.
+5. Choose **Install** when the download finishes, then open KATIKA TV.
+6. Enter your login and tick the countries you want for live TV.
 
 On other Android TV devices, the steps are the same: install Downloader from the Play Store and allow it to install apps when asked.
 
