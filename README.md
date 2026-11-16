@@ -1,6 +1,6 @@
 # KATIKA TV
 
-A player for Fire TV and Android TV, for live TV, movies and series from your own provider. You need your own Xtream Codes login or M3U link; the app doesn't come with one.
+A player for Fire TV, Android TV and Windows, for live TV, movies and series from your own provider. You need your own Xtream Codes login or M3U link; the app doesn't come with one.
 
 ## Install on a Fire TV Stick
 
@@ -12,9 +12,22 @@ A player for Fire TV and Android TV, for live TV, movies and series from your ow
 
 On other Android TV devices, the steps are the same: install Downloader from the Play Store and allow it to install apps when asked.
 
+## Install on Windows
+
+Needs Windows 10 or 11, 64-bit.
+
+1. Download the installer: https://github.com/codeurvibe/katika-tv-releases/releases/latest/download/KatikaTV-Setup.exe
+2. Open it. Windows shows "Windows protected your PC" because the installer isn't code-signed: choose **More info**, then **Run anyway**.
+3. Follow the installer, then open Katika TV from the Start menu.
+4. Enter your login and tick the countries and languages you want to keep.
+
+For the few streams the built-in player can't play, mainly ones with Dolby sound, install [VLC](https://www.videolan.org/vlc/) and use **Open in VLC**.
+
+Your login, channels and favorites are saved on that PC in `%APPDATA%\Katika TV\library`. Your password is stored there in plain text, so only install it on a PC you trust.
+
 ## Updating
 
-The app doesn't update itself. To get a newer version, repeat step 3. It installs over your current version and keeps your login and favorites.
+The app doesn't update itself. To get a newer version on a Fire TV, repeat step 3 of the Fire TV steps; on Windows, download and run the installer again. Both install over your current version and keep your login and favorites.
 
 ## Using the remote
 
