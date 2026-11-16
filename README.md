@@ -17,13 +17,13 @@ On other Android TV devices, the steps are the same: install Downloader from the
 Needs Windows 10 or 11, 64-bit.
 
 1. Download the installer: https://github.com/codeurvibe/katika-tv-releases/releases/latest/download/KatikaTV-Setup.exe
-2. Open it. Windows shows "Windows protected your PC" because the installer isn't code-signed: choose **More info**, then **Run anyway**.
+2. Open it. Windows shows a blue "Windows protected your PC" box, because the installer isn't code-signed. This is expected: click **More info**, then **Run anyway**. Some browsers also ask whether to keep the file; choose **Keep**.
 3. Follow the installer, then open Katika TV from the Start menu.
 4. Enter your login and tick the countries and languages you want to keep.
 
 For the few streams the built-in player can't play, mainly ones with Dolby sound, install [VLC](https://www.videolan.org/vlc/) and use **Open in VLC**.
 
-Your login, channels and favorites are saved on that PC in `%APPDATA%\Katika TV\library`. Your password is stored there in plain text, so only install it on a PC you trust.
+Your login, channels and favorites are saved on that PC in `%APPDATA%\Katika TV\library`, encrypted so only your Windows account can read them.
 
 ## Updating
 
